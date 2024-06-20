@@ -1,0 +1,136 @@
+/* Write your CSS here */
+
+.bgCont {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCont {
+  background-color: #f8fafc;
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 60px;
+}
+.head {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+.selects {
+  height: 30px;
+  width: 180px;
+  margin-top: 10px;
+}
+.caps {
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 30px;
+  color: #000000;
+}
+.para {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 10px;
+}
+.countryBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.head2 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .cardCont {
+    background-color: #f8fafc;
+    border-radius: 7px;
+    border-width: 0px;
+    padding: 60px;
+    height: 500px;
+    width: 600px;
+  }
+  .head {
+    font-family: 'Roboto';
+    font-size: 45px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+  }
+  .selects {
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .caps {
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-left: 30px;
+    color: #000000;
+  }
+  .para {
+    font-family: 'Roboto';
+    color: #1e293b;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .head2 {
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: #000000;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cardCont {
+    background-color: #f8fafc;
+    border-radius: 7px;
+    border-width: 0px;
+    padding: 60px;
+    height: 800px;
+    width: 800px;
+  }
+  .head {
+    font-family: 'Roboto';
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+  }
+  .selects {
+    height: 60px;
+    width: 330px;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .caps {
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-left: 30px;
+    color: #000000;
+  }
+  .para {
+    font-family: 'Roboto';
+    color: #1e293b;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  .head2 {
+    font-family: 'Roboto';
+    font-size: 60px;
+    color: #000000;
+    margin-top: 30px;
+  }
+}
